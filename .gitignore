@@ -1,0 +1,27 @@
+# Node.js зависимости (ОБЯЗАТЕЛЬНО)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (ОБЯЗАТЕЛЬНО)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Файлы окружения (секреты, API-ключи)
+.env
+.env.local
+.env.*
+
+# Настройки редакторов
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
